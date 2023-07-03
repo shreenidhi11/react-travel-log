@@ -1,6 +1,3 @@
-import React from "react";
-import re from "../assets/react.svg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { GoLocation } from "@react-icons/all-files/go/GoLocation";
 
 interface Props {
