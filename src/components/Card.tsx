@@ -24,7 +24,8 @@ const Card = ({
 }: Props) => {
   return (
     <section className="card">
-      <img src={`../public/${coverImg}`} />
+      {/* <img src={`../assets/${coverImg}`} /> */}
+      <img src={coverImg}/>
       <div className="details">
         <div className="country_icon">
           <h3 className="country">{country}</h3>
@@ -32,10 +33,6 @@ const Card = ({
             <GoLocation />
           </span>
         </div>
-        {/* <h3 className="country">{country}</h3>
-        <span className="locIcon">
-          <GoLocation />
-        </span> */}
         <h1 className="title">{location}</h1>
         <hr />
         <div className="duration">
