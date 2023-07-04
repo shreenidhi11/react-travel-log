@@ -55,6 +55,9 @@ const App = () => {
       },
       location: "Niagara Falls",
     },
+
+
+    
   ];
 
   const displayData = extData.map((item) => {
