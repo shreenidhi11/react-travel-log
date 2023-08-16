@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import letchworth from './assets/letchworth.jpeg';
 import niagara from './assets/niagara-falls-desktop.png';
 import mountfuji from './assets/SG010_6.png';
+import ontario from './assets/ontario_beach_charlotte_62620_1.png';
+import watkins from './assets/watkins-glen-state-park-in-ne3aca26-800x800.jpeg';
 
 const App = () => {
   const extData = [
@@ -55,6 +57,40 @@ const App = () => {
       },
       location: "Niagara Falls",
     },
+    {
+      id: 4,
+      country: "USA",
+      description:
+        "Known for its natural beauty, Watkins Glen State Park features a series of waterfalls and gorges that are sure to amaze anyone. An almost two mile hike will take you past 19 waterfalls and up over 800 stone steps.There are a number of small trails leading off of the Gorge Trail, giving way to a number of other outdoor activities close by the main trail. There are tent and trailer camp sites, swimming pools, picnic areas and guided tours of the local topography",
+      // coverImg: "../images/niagara-falls-desktop.png",
+      coverImg: watkins,
+      duration: {
+        fromdate: 19,
+        frommon: "July",
+        todate: 20,
+        tomon: "July",
+        year: 2023,
+      },
+      location: "Watkins Glen",
+    },
+
+    {
+      id: 4,
+      country: "USA",
+      description:
+        "Ontario Beach Park is located on the shore of Lake Ontario in the northernmost section of the City of Rochester near the Irondequoit border.",
+      // coverImg: "../images/niagara-falls-desktop.png",
+      coverImg: ontario,
+      duration: {
+        fromdate: 20,
+        frommon: "Aug",
+        todate: 21,
+        tomon: "Aug",
+        year: 2022,
+      },
+      location: "Ontario Beach Park",
+    },
+
 
 
     
